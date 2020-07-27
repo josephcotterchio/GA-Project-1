@@ -1,0 +1,84 @@
+body {
+  background-color: aliceblue;
+  font-family: "calibri"; 
+  color: black;
+  height:100%;
+  text-align:center;
+  font-size:18px;
+}
+#shell {
+  margin-left: 200px;
+}
+
+#word_spaces {
+  margin-bottom: 20px;
+}
+p{
+  font-size: 18px;
+}
+.keyboard{
+  background-color: blue;
+  color: white;
+  border: 1px white;
+  border-style: double;
+  border-radius: 15px;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px 12px;
+  width: 18px;
+  margin-top: 15px;
+}
+
+
+#shell div {
+background-color: black;
+}
+
+#shell .base {
+  height: 5px;
+  width: 200px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+}
+
+#shell .leftline {
+  height: 300px;
+  width: 5px;
+  margin-left: 40px;
+}
+
+#shell .topline {
+  height: 2px;
+  width: 200px;
+  margin-left: 40px;
+}
+
+#shell .righttopline {
+  float: left;
+  height: 30px;
+  margin-left: 240px;
+  width: 4px;
+}
+
+#shell .head {
+image:
+}
+
+#shell .body {
+  image:
+}
+
+#shell .left-arm{
+  image:
+}
+#shell .right-arm{
+  image:
+}
+#shell .left-leg{
+  image:
+}
+#shell .right-leg {
+  image:
+}
