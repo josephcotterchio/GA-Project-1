@@ -20,14 +20,15 @@ h1 {
 p {
   font-size: 24px;
   font-weight: bold;
-  color: black;
+  color: darkgray;
   text-align: center;
   font-family: "calibri"; 
 }
 #word_answer {
   font-size: 24px;
   font-weight: bold;
-  color: black;
+  color: moccasin;
+  border-color: black;
   text-align: center;
   font-family: "calibri"; 
 }
@@ -42,6 +43,14 @@ p {
 
 #word_spaces {
   margin-bottom: 20px;
+  color: moccasin;
+  font-size: 24px;
+}
+.image {
+  padding-right: 600px;
+  float: left;
+  image-orientation: initial;
+  position: relative;
 }
 
 .keyboard{
@@ -61,55 +70,5 @@ p {
 #reset {
   background-color: moccasin;
   font-size: 18px;
-}
-
-#shell div {
-background-color: black;
-}
-
-#shell .base {
-  height: 5px;
-  width: 200px;
-  margin-bottom: 10px;
-  margin-left: 40px;
-}
-
-#shell .leftline {
-  height: 300px;
-  width: 5px;
-  margin-left: 40px;
-}
-
-#shell .topline {
-  height: 2px;
-  width: 200px;
-  margin-left: 40px;
-}
-
-#shell .righttopline {
-  float: left;
-  height: 30px;
-  margin-left: 240px;
-  width: 4px;
-}
-
-#shell .head {
-image:
-}
-
-#shell .body {
-  image:
-}
-
-#shell .left-arm{
-  image:
-}
-#shell .right-arm{
-  image:
-}
-#shell .left-leg{
-  image:
-}
-#shell .right-leg {
-  image:
+  margin-top: 10px;
 }
