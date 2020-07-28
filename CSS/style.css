@@ -1,11 +1,19 @@
 body {
-  background-color: aliceblue;
+  background-image: url("tgtbtu.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
   font-family: "calibri"; 
-  color: black;
   height:100%;
+  font-size: 24px bold;
+  color: black;
   text-align:center;
-  font-size:18px;
 }
+.url {
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
+
 #shell {
   margin-left: 200px;
 }
@@ -13,12 +21,9 @@ body {
 #word_spaces {
   margin-bottom: 20px;
 }
-p{
-  font-size: 18px;
-}
+
 .keyboard{
-  background-color: blue;
-  color: white;
+  background-color: moccasin;
   border: 1px white;
   border-style: double;
   border-radius: 15px;
