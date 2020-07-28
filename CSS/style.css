@@ -3,11 +3,33 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; 
-  font-family: "calibri"; 
-  height:100%;
-  font-size: 24px bold;
+}
+main {
   color: black;
+  text-align: center;
+  font-family: "calibri"; 
+}
+
+h1 {
+  font-size: 44px;
+  font-weight: bold;
+  color: darkgray;
   text-align:center;
+  font-family: "calibri"; 
+}
+p {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  font-family: "calibri"; 
+}
+#word_answer {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  font-family: "calibri"; 
 }
 .url {
   image-rendering: crisp-edges;
@@ -15,7 +37,7 @@ body {
 }
 
 #shell {
-  margin-left: 200px;
+  margin-left: 100px;
 }
 
 #word_spaces {
@@ -34,8 +56,12 @@ body {
   padding: 10px 12px;
   width: 18px;
   margin-top: 15px;
+  font-family: "calibri"; 
 }
-
+#reset {
+  background-color: moccasin;
+  font-size: 18px;
+}
 
 #shell div {
 background-color: black;
