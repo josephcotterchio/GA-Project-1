@@ -1,5 +1,5 @@
 
-var chosenWord = ["jquery"]
+var chosenWord = ["jquery", "binary", ]
 var wordChoice = chosenWord[Math.floor(Math.random() * chosenWord.length)];
 
 let answer = '';
@@ -16,6 +16,29 @@ document.addEventListener('click', handleGuess);
 // function randomWord() {
 //   answers = answers[Math.floor(Math.random() * answers.length)];
 // }
+function updateImage() {
+  if (lives == 5) {
+    document.getElementById('hangman').src = "image1.jpg"
+  } else if (lives == 4) {
+    document.getElementById('hangman').src = "image2.jpg"
+  }
+  else if (lives == 3) {
+    document.getElementById('hangman').src = "image3.jpg"
+  }
+  else if (lives == 2) {
+    document.getElementById('hangman').src = "image4.jpg"
+  }
+  else if (lives == 1) {
+    document.getElementById('hangman').src = "image5.jpg"
+  }
+  else if (lives == 0) {
+    document.getElementById('hangman').src = "image6.jpg"
+  }
+
+  // If lives equal 6, display image1. 
+  //else if lives == 5 display image2.
+  //else if 
+}
 
 function handleGuess(event) {
   //let wordChoice = chosenWord[0]
@@ -28,9 +51,8 @@ function handleGuess(event) {
       document.getElementById(wordPosition).innerHTML = "a";
     } else {
       lives = lives - 1;
-      document.getElementById('hangman').src = "image1.jpg"
+      updateImage()
     }
-
   }
 
 
@@ -48,6 +70,10 @@ function handleGuess(event) {
       //to a string
       document.getElementById(z).innerHTML = "b";
     }
+    else {
+      lives = lives - 1;
+      updateImage()
+    }
   }
   else if (event.target.id == 'c') {
     document.getElementById('c').style.backgroundColor = 'brown'
@@ -58,6 +84,10 @@ function handleGuess(event) {
       var z = wordChoice.indexOf("c") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "c";
+    }
+    else {
+      lives = lives - 1;
+      updateImage()
     }
   }
   else if (event.target.id == 'd') {
@@ -70,6 +100,10 @@ function handleGuess(event) {
       //to a string
       document.getElementById(z).innerHTML = "d";
     }
+    else {
+      lives = lives - 1;
+      updateImage()
+    }
   }
   else if (event.target.id == 'e') {
     document.getElementById('e').style.backgroundColor = 'brown'
@@ -80,6 +114,10 @@ function handleGuess(event) {
       var z = wordChoice.indexOf("e") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "e";
+    }
+    else {
+      lives = lives - 1;
+      updateImage()
     }
   }
   else if (event.target.id == 'f') {
@@ -92,6 +130,10 @@ function handleGuess(event) {
       //to a string
       document.getElementById(z).innerHTML = "f";
     }
+    else {
+      lives = lives - 1;
+      updateImage()
+    }
   }
   else if (event.target.id == 'g') {
     document.getElementById('g').style.backgroundColor = 'brown'
@@ -102,6 +144,10 @@ function handleGuess(event) {
       var z = wordChoice.indexOf("g") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "g";
+    }
+    else {
+      lives = lives - 1;
+      updateImage()
     }
   }
   else if (event.target.id == 'h') {
@@ -114,6 +160,10 @@ function handleGuess(event) {
       //to a string
       document.getElementById(z).innerHTML = "h";
     }
+    else {
+      lives = lives - 1;
+      updateImage()
+    }
   }
   else if (event.target.id == 'i') {
     document.getElementById('i').style.backgroundColor = 'brown'
@@ -124,6 +174,10 @@ function handleGuess(event) {
       var z = wordChoice.indexOf("i") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "i";
+    }
+    else {
+      lives = lives - 1;
+      updateImage()
     }
   }
   else if (event.target.id == 'j') {
@@ -136,6 +190,10 @@ function handleGuess(event) {
       //to a string
       document.getElementById(z).innerHTML = "j";
     }
+    else {
+      lives = lives - 1;
+      updateImage()
+    }
   }
   else if (event.target.id == 'k') {
     document.getElementById('k').style.backgroundColor = 'brown'
@@ -146,6 +204,10 @@ function handleGuess(event) {
       var z = wordChoice.indexOf("k") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "k";
+    }
+    else {
+      lives = lives - 1;
+      updateImage()
     }
   }
   else if (event.target.id == 'l') {
@@ -158,6 +220,10 @@ function handleGuess(event) {
       //to a string
       document.getElementById(z).innerHTML = "l";
     }
+    else {
+      lives = lives - 1;
+      updateImage()
+    }
   }
   else if (event.target.id == 'm') {
     document.getElementById('m').style.backgroundColor = 'brown'
@@ -168,6 +234,10 @@ function handleGuess(event) {
       var z = wordChoice.indexOf("m") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "m";
+    }
+    else {
+      lives = lives - 1;
+      updateImage()
     }
   }
   else if (event.target.id == 'n') {
@@ -180,6 +250,10 @@ function handleGuess(event) {
       //to a string
       document.getElementById(z).innerHTML = "n";
     }
+    else {
+      lives = lives - 1;
+      updateImage()
+    }
   }
   else if (event.target.id == 'o') {
     document.getElementById('o').style.backgroundColor = 'brown'
@@ -190,6 +264,10 @@ function handleGuess(event) {
       var z = wordChoice.indexOf("o") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "o";
+    }
+    else {
+      lives = lives - 1;
+      updateImage()
     }
   }
   else if (event.target.id == 'p') {
@@ -202,6 +280,10 @@ function handleGuess(event) {
       //to a string
       document.getElementById(n).innerHTML = "p";
     }
+    else {
+      lives = lives - 1;
+      updateImage()
+    }
   }
   else if (event.target.id == 'q') {
     document.getElementById('q').style.backgroundColor = 'brown'
@@ -212,6 +294,10 @@ function handleGuess(event) {
       var z = wordChoice.indexOf("q") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "q";
+    }
+    else {
+      lives = lives - 1;
+      updateImage()
     }
   }
   else if (event.target.id == 'r') {
@@ -224,6 +310,10 @@ function handleGuess(event) {
       //to a string
       document.getElementById(z).innerHTML = "r";
     }
+    else {
+      lives = lives - 1;
+      updateImage()
+    }
   }
   else if (event.target.id == 's') {
     document.getElementById('s').style.backgroundColor = 'brown'
@@ -234,6 +324,10 @@ function handleGuess(event) {
       var z = wordChoice.indexOf("s") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "s";
+    }
+    else {
+      lives = lives - 1;
+      updateImage()
     }
   }
   else if (event.target.id == 't') {
@@ -246,6 +340,10 @@ function handleGuess(event) {
       //to a string
       document.getElementById(z).innerHTML = "t";
     }
+    else {
+      lives = lives - 1;
+      updateImage()
+    }
   }
   else if (event.target.id == 'u') {
     document.getElementById('u').style.backgroundColor = 'brown'
@@ -256,6 +354,10 @@ function handleGuess(event) {
       var z = wordChoice.indexOf("u") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "u";
+    }
+    else {
+      lives = lives - 1;
+      updateImage()
     }
   }
   else if (event.target.id == 'v') {
@@ -268,6 +370,10 @@ function handleGuess(event) {
       //to a string
       document.getElementById(z).innerHTML = "v";
     }
+    else {
+      lives = lives - 1;
+      updateImage()
+    }
   }
   else if (event.target.id == 'w') {
     document.getElementById('w').style.backgroundColor = 'brown'
@@ -278,6 +384,10 @@ function handleGuess(event) {
       var z = wordChoice.indexOf("w") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "w";
+    }
+    else {
+      lives = lives - 1;
+      updateImage()
     }
   }
   else if (event.target.id == 'x') {
@@ -290,6 +400,10 @@ function handleGuess(event) {
       //to a string
       document.getElementById(z).innerHTML = "x";
     }
+    else {
+      lives = lives - 1;
+      updateImage()
+    }
   }
   else if (event.target.id == 'y') {
     document.getElementById('y').style.backgroundColor = 'brown'
@@ -300,6 +414,10 @@ function handleGuess(event) {
       var z = wordChoice.indexOf("y") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "y";
+    }
+    else {
+      lives = lives - 1;
+      updateImage()
     }
   }
   else if (event.target.id == 'z') {
@@ -312,8 +430,13 @@ function handleGuess(event) {
       //to a string
       document.getElementById(z).innerHTML = "z";
     }
+    else {
+      lives = lives - 1;
+      updateImage()
+    }
   }
 }
+
 function updateHangmanPicture() {
   document.getElementById('hangmanPic').src = './images/' + mistakes + '.jpg';
 }
