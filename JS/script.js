@@ -1,5 +1,5 @@
 
-var chosenWord = ["jquery", "binary", "bitmap",]
+var chosenWord = ["jquery", "binary", "bitmap", "github", "hacker", "laptop", "window", "parser", "google"]
 var wordChoice = chosenWord[Math.floor(Math.random() * chosenWord.length)];
 
 let answer = '';
