@@ -1,4 +1,4 @@
-var chosenWord = ["jquery", "binary",]
+var chosenWord = ["jquery", "binary", "bitmap", ]
 var wordChoice = chosenWord[Math.floor(Math.random() * chosenWord.length)];
 
 let answer = '';
@@ -417,7 +417,8 @@ function handleGuess(event) {
       updateImage()
     }
   }
-  checkWinningCondition()
+  checkWinningCondition();
+  checkLosingCondition() 
 }
 
 function checkWinningCondition() {
@@ -428,7 +429,15 @@ function checkWinningCondition() {
   }
 }
 
+function checkLosingCondition() {
+  if (lives == 0) {
+    document.getElementById("hidden1").innerHTML = "You let Tuco die!"
+  }
+}
 
+
+//losing condition. If lives are equal to zero, then the innerHTML should display that you let Tuco die.
+//
 
 // Dashes are replaced with letters. When the innerHTML no longer contains dashes, 
 // we can alert that the player has won.
