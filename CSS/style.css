@@ -3,6 +3,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; 
+  max-height: 100vh;
+  width: 100%;
 }
 main {
   color: black;
@@ -13,25 +15,26 @@ main {
 h1 {
   font-size: 44px;
   font-weight: bold;
-  color: darkgray;
+  color: #F8F8FF;
   text-align:center;
   font-family: "calibri"; 
+  margin-top: 0px;
 }
 p {
   font-size: 24px;
   font-weight: bold;
-  color: darkgray;
+  color: #F8F8FF;
   text-align: center;
   font-family: "calibri"; 
 }
 #word_answer {
   font-size: 24px;
   font-weight: bold;
-  color: moccasin;
+  color: #F8F8FF;
   border-color: black;
   text-align: center;
   font-family: "calibri"; 
-  margin-top: 200px;
+  margin-top: 60px;
 }
 .url {
   image-rendering: crisp-edges;
@@ -44,9 +47,9 @@ p {
 
 #word_spaces {
   margin-bottom: 5px;
-  color: moccasin;
+  color: #F8F8FF;
   font-size: 24px;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 .image {
   padding-right: 600px;
@@ -66,11 +69,21 @@ p {
   text-align: center;
   padding: 10px 12px;
   width: 18px;
-  margin-top: 350px;
+  margin-top: 100px;
   font-family: "calibri"; 
 }
 #reset {
   background-color: moccasin;
   font-size: 18px;
   margin-top: 10px;
+}
+.theme {
+margin-right: 100px;
+margin-left: 0px;
+margin-top: 200px;
+float: "left";
+padding-right: 900px;
+color: lightgray;
+opacity: 0.75;
+filter: grayscale(70%);
 }

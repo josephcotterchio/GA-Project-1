@@ -42,7 +42,7 @@ function updateImage() {
 function handleGuess(event) {
   //let wordChoice = chosenWord[0]
   if (event.target.id == 'a') {
-    document.getElementById('a').style.backgroundColor = 'brown'
+    document.getElementById('a').style.backgroundColor = '#A0522D'
 
     if (wordChoice.includes("a")) {
       var wordPosition = wordChoice.indexOf("a") + ""; //the plus and empty "" converts any number
@@ -60,7 +60,7 @@ function handleGuess(event) {
 
 
   else if (event.target.id == 'b') {
-    document.getElementById('b').style.backgroundColor = 'brown'
+    document.getElementById('b').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("b")) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
@@ -75,7 +75,7 @@ function handleGuess(event) {
     }
   }
   else if (event.target.id == 'c') {
-    document.getElementById('c').style.backgroundColor = 'brown'
+    document.getElementById('c').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("c")) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
@@ -90,7 +90,7 @@ function handleGuess(event) {
     }
   }
   else if (event.target.id == 'd') {
-    document.getElementById('d').style.backgroundColor = 'brown'
+    document.getElementById('d').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("d")) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
@@ -105,7 +105,7 @@ function handleGuess(event) {
     }
   }
   else if (event.target.id == 'e') {
-    document.getElementById('e').style.backgroundColor = 'brown'
+    document.getElementById('e').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("e")) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
@@ -120,7 +120,7 @@ function handleGuess(event) {
     }
   }
   else if (event.target.id == 'f') {
-    document.getElementById('f').style.backgroundColor = 'brown'
+    document.getElementById('f').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("f")) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
@@ -135,7 +135,7 @@ function handleGuess(event) {
     }
   }
   else if (event.target.id == 'g') {
-    document.getElementById('g').style.backgroundColor = 'brown'
+    document.getElementById('g').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("g")) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
@@ -150,7 +150,7 @@ function handleGuess(event) {
     }
   }
   else if (event.target.id == 'h') {
-    document.getElementById('h').style.backgroundColor = 'brown'
+    document.getElementById('h').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("h")) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
@@ -165,7 +165,7 @@ function handleGuess(event) {
     }
   }
   else if (event.target.id == 'i') {
-    document.getElementById('i').style.backgroundColor = 'brown'
+    document.getElementById('i').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("i")) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
@@ -180,7 +180,7 @@ function handleGuess(event) {
     }
   }
   else if (event.target.id == 'j') {
-    document.getElementById('j').style.backgroundColor = 'brown'
+    document.getElementById('j').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("j")) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
@@ -195,7 +195,7 @@ function handleGuess(event) {
     }
   }
   else if (event.target.id == 'k') {
-    document.getElementById('k').style.backgroundColor = 'brown'
+    document.getElementById('k').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("k")) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
@@ -210,7 +210,7 @@ function handleGuess(event) {
     }
   }
   else if (event.target.id == 'l') {
-    document.getElementById('l').style.backgroundColor = 'brown'
+    document.getElementById('l').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("l")) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
@@ -225,7 +225,7 @@ function handleGuess(event) {
     }
   }
   else if (event.target.id == 'm') {
-    document.getElementById('m').style.backgroundColor = 'brown'
+    document.getElementById('m').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("m")) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
@@ -240,7 +240,7 @@ function handleGuess(event) {
     }
   }
   else if (event.target.id == 'n') {
-    document.getElementById('n').style.backgroundColor = 'brown'
+    document.getElementById('n').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("n")) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
@@ -255,7 +255,7 @@ function handleGuess(event) {
     }
   }
   else if (event.target.id == 'o') {
-    document.getElementById('o').style.backgroundColor = 'brown'
+    document.getElementById('o').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("o")) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
@@ -270,7 +270,7 @@ function handleGuess(event) {
     }
   }
   else if (event.target.id == 'p') {
-    document.getElementById('p').style.backgroundColor = 'brown'
+    document.getElementById('p').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("p")) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
@@ -285,7 +285,7 @@ function handleGuess(event) {
     }
   }
   else if (event.target.id == 'q') {
-    document.getElementById('q').style.backgroundColor = 'brown'
+    document.getElementById('q').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("q")) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
@@ -300,7 +300,7 @@ function handleGuess(event) {
     }
   }
   else if (event.target.id == 'r') {
-    document.getElementById('r').style.backgroundColor = 'brown'
+    document.getElementById('r').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("r")) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
@@ -315,7 +315,7 @@ function handleGuess(event) {
     }
   }
   else if (event.target.id == 's') {
-    document.getElementById('s').style.backgroundColor = 'brown'
+    document.getElementById('s').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("s")) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
@@ -330,7 +330,7 @@ function handleGuess(event) {
     }
   }
   else if (event.target.id == 't') {
-    document.getElementById('t').style.backgroundColor = 'brown'
+    document.getElementById('t').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("t")) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
@@ -345,7 +345,7 @@ function handleGuess(event) {
     }
   }
   else if (event.target.id == 'u') {
-    document.getElementById('u').style.backgroundColor = 'brown'
+    document.getElementById('u').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("u")) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
@@ -360,7 +360,7 @@ function handleGuess(event) {
     }
   }
   else if (event.target.id == 'v') {
-    document.getElementById('v').style.backgroundColor = 'brown'
+    document.getElementById('v').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("v")) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
@@ -375,7 +375,7 @@ function handleGuess(event) {
     }
   }
   else if (event.target.id == 'w') {
-    document.getElementById('w').style.backgroundColor = 'brown'
+    document.getElementById('w').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("w")) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
@@ -390,7 +390,7 @@ function handleGuess(event) {
     }
   }
   else if (event.target.id == 'x') {
-    document.getElementById('x').style.backgroundColor = 'brown'
+    document.getElementById('x').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("x")) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
@@ -405,7 +405,7 @@ function handleGuess(event) {
     }
   }
   else if (event.target.id == 'y') {
-    document.getElementById('y').style.backgroundColor = 'brown'
+    document.getElementById('y').style.backgroundColor = '#8B4513'
     if (wordChoice.includes("y")) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
@@ -420,7 +420,7 @@ function handleGuess(event) {
     }
   }
   else if (event.target.id == 'z') {
-    document.getElementById('z').style.backgroundColor = 'brown'
+    document.getElementById('z').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("z")) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
