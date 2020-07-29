@@ -1,4 +1,4 @@
-var chosenWord = ["jquery", "binary", ]
+var chosenWord = ["jquery", "binary",]
 var wordChoice = chosenWord[Math.floor(Math.random() * chosenWord.length)];
 
 let answer = '';
@@ -33,10 +33,6 @@ function updateImage() {
   else if (lives == 0) {
     document.getElementById('hangman').src = "image6.jpg"
   }
-
-  // If lives equal 6, display image1. 
-  //else if lives == 5 display image2.
-  //else if 
 }
 
 function handleGuess(event) {
@@ -53,20 +49,10 @@ function handleGuess(event) {
       updateImage()
     }
   }
-
-
-  //wordchoice != a, we want the hangman to start to populate.
-  //it should also trigger a counter for number of wrong guess. the max of which is 6.
-
-
   else if (event.target.id == 'b') {
     document.getElementById('b').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("b")) {
-      //If word includes J, have an array that connects to the ID in our span IDs.
-      //Our string is any given word. Variable can be anything. We need to link our
-      // ID to the ID created with <span>
-      var wordPosition = wordChoice.indexOf("b") + ""; //the plus and empty "" converts any number
-      //to a string
+      var wordPosition = wordChoice.indexOf("b") + "";
       document.getElementById(wordPosition).innerHTML = "b";
     }
     else {
@@ -77,9 +63,6 @@ function handleGuess(event) {
   else if (event.target.id == 'c') {
     document.getElementById('c').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("c")) {
-      //If word includes J, have an array that connects to the ID in our span IDs.
-      //Our string is any given word. Variable can be anything. We need to link our
-      // ID to the ID created with <span>
       var wordPosition = wordChoice.indexOf("c") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(wordPosition).innerHTML = "c";
@@ -434,7 +417,23 @@ function handleGuess(event) {
       updateImage()
     }
   }
+  checkWinningCondition()
 }
+
+function checkWinningCondition() {
+  if (document.getElementById("0").innerHTML != "_" && document.getElementById("1").innerHTML != "_"
+    && document.getElementById("2").innerHTML != "_" && document.getElementById("3").innerHTML != "_"
+    && document.getElementById("4").innerHTML != "_" && document.getElementById("5").innerHTML != "_") {
+    document.getElementById("hidden").innerHTML = "You saved Tuco!"
+  }
+}
+
+
+
+// Dashes are replaced with letters. When the innerHTML no longer contains dashes, 
+// we can alert that the player has won.
+
+
 
 function updateHangmanPicture() {
   document.getElementById('hangmanPic').src = './images/' + mistakes + '.jpg';
