@@ -1,4 +1,3 @@
-
 var chosenWord = ["jquery", "binary", ]
 var wordChoice = chosenWord[Math.floor(Math.random() * chosenWord.length)];
 
@@ -46,7 +45,7 @@ function handleGuess(event) {
     document.getElementById('a').style.backgroundColor = 'brown'
 
     if (wordChoice.includes("a")) {
-      var wordPosition = wordChoice.indexOf("a") + ""; //the plus and empty "" converts any number
+      var wordPosition    = wordChoice.indexOf("a") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(wordPosition).innerHTML = "a";
     } else {
@@ -66,7 +65,7 @@ function handleGuess(event) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
       // ID to the ID created with <span>
-      var z = wordChoice.indexOf("b") + ""; //the plus and empty "" converts any number
+      var wordPosition   = wordChoice.indexOf("b") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "b";
     }
@@ -81,7 +80,7 @@ function handleGuess(event) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
       // ID to the ID created with <span>
-      var z = wordChoice.indexOf("c") + ""; //the plus and empty "" converts any number
+      var wordPosition   = wordChoice.indexOf("c") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "c";
     }
@@ -96,7 +95,7 @@ function handleGuess(event) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
       // ID to the ID created with <span>
-      var z = wordChoice.indexOf("d") + ""; //the plus and empty "" converts any number
+      var wordPosition  = wordChoice.indexOf("d") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "d";
     }
@@ -111,7 +110,7 @@ function handleGuess(event) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
       // ID to the ID created with <span>
-      var z = wordChoice.indexOf("e") + ""; //the plus and empty "" converts any number
+      var wordPosition  = wordChoice.indexOf("e") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "e";
     }
@@ -126,7 +125,7 @@ function handleGuess(event) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
       // ID to the ID created with <span>
-      var z = wordChoice.indexOf("f") + ""; //the plus and empty "" converts any number
+      var wordPosition  = wordChoice.indexOf("f") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "f";
     }
@@ -141,7 +140,7 @@ function handleGuess(event) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
       // ID to the ID created with <span>
-      var z = wordChoice.indexOf("g") + ""; //the plus and empty "" converts any number
+      var wordPosition  = wordChoice.indexOf("g") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "g";
     }
@@ -156,7 +155,7 @@ function handleGuess(event) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
       // ID to the ID created with <span>
-      var z = wordChoice.indexOf("h") + ""; //the plus and empty "" converts any number
+      var wordPosition  = wordChoice.indexOf("h") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "h";
     }
@@ -171,7 +170,7 @@ function handleGuess(event) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
       // ID to the ID created with <span>
-      var z = wordChoice.indexOf("i") + ""; //the plus and empty "" converts any number
+      var wordPosition  = wordChoice.indexOf("i") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "i";
     }
@@ -186,7 +185,7 @@ function handleGuess(event) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
       // ID to the ID created with <span>
-      var z = wordChoice.indexOf("j") + ""; //the plus and empty "" converts any number
+      var wordPosition  = wordChoice.indexOf("j") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "j";
     }
@@ -201,7 +200,7 @@ function handleGuess(event) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
       // ID to the ID created with <span>
-      var z = wordChoice.indexOf("k") + ""; //the plus and empty "" converts any number
+      var wordPosition  = wordChoice.indexOf("k") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "k";
     }
@@ -216,7 +215,7 @@ function handleGuess(event) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
       // ID to the ID created with <span>
-      var z = wordChoice.indexOf("l") + ""; //the plus and empty "" converts any number
+      var wordPosition  = wordChoice.indexOf("l") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "l";
     }
@@ -231,7 +230,7 @@ function handleGuess(event) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
       // ID to the ID created with <span>
-      var z = wordChoice.indexOf("m") + ""; //the plus and empty "" converts any number
+      var wordPosition  = wordChoice.indexOf("m") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "m";
     }
@@ -246,7 +245,7 @@ function handleGuess(event) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
       // ID to the ID created with <span>
-      var z = wordChoice.indexOf("n") + ""; //the plus and empty "" converts any number
+      var wordPosition  = wordChoice.indexOf("n") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "n";
     }
@@ -261,7 +260,7 @@ function handleGuess(event) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
       // ID to the ID created with <span>
-      var z = wordChoice.indexOf("o") + ""; //the plus and empty "" converts any number
+      var wordPosition  = wordChoice.indexOf("o") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "o";
     }
@@ -291,7 +290,7 @@ function handleGuess(event) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
       // ID to the ID created with <span>
-      var z = wordChoice.indexOf("q") + ""; //the plus and empty "" converts any number
+      var wordPosition  = wordChoice.indexOf("q") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "q";
     }
@@ -306,7 +305,7 @@ function handleGuess(event) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
       // ID to the ID created with <span>
-      var z = wordChoice.indexOf("r") + ""; //the plus and empty "" converts any number
+      var wordPosition  = wordChoice.indexOf("r") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "r";
     }
@@ -321,7 +320,7 @@ function handleGuess(event) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
       // ID to the ID created with <span>
-      var z = wordChoice.indexOf("s") + ""; //the plus and empty "" converts any number
+      var wordPosition  = wordChoice.indexOf("s") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "s";
     }
@@ -336,7 +335,7 @@ function handleGuess(event) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
       // ID to the ID created with <span>
-      var z = wordChoice.indexOf("t") + ""; //the plus and empty "" converts any number
+      var wordPosition  = wordChoice.indexOf("t") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "t";
     }
@@ -351,7 +350,7 @@ function handleGuess(event) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
       // ID to the ID created with <span>
-      var z = wordChoice.indexOf("u") + ""; //the plus and empty "" converts any number
+      var wordPosition  = wordChoice.indexOf("u") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "u";
     }
@@ -366,7 +365,7 @@ function handleGuess(event) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
       // ID to the ID created with <span>
-      var z = wordChoice.indexOf("v") + ""; //the plus and empty "" converts any number
+      var wordPosition  = wordChoice.indexOf("v") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "v";
     }
@@ -381,7 +380,7 @@ function handleGuess(event) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
       // ID to the ID created with <span>
-      var z = wordChoice.indexOf("w") + ""; //the plus and empty "" converts any number
+      var wordPosition  = wordChoice.indexOf("w") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "w";
     }
@@ -396,7 +395,7 @@ function handleGuess(event) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
       // ID to the ID created with <span>
-      var z = wordChoice.indexOf("x") + ""; //the plus and empty "" converts any number
+      var wordPosition  = wordChoice.indexOf("x") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "x";
     }
@@ -411,7 +410,7 @@ function handleGuess(event) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
       // ID to the ID created with <span>
-      var z = wordChoice.indexOf("y") + ""; //the plus and empty "" converts any number
+      var wordPosition  = wordChoice.indexOf("y") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "y";
     }
@@ -426,7 +425,7 @@ function handleGuess(event) {
       //If word includes J, have an array that connects to the ID in our span IDs.
       //Our string is any given word. Variable can be anything. We need to link our
       // ID to the ID created with <span>
-      var z = wordChoice.indexOf("z") + ""; //the plus and empty "" converts any number
+      var wordPosition  = wordChoice.indexOf("z") + ""; //the plus and empty "" converts any number
       //to a string
       document.getElementById(z).innerHTML = "z";
     }
