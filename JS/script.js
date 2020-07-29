@@ -448,6 +448,7 @@ function updateHangmanPicture() {
   document.getElementById('hangmanPic').src = './images/' + mistakes + '.jpg';
 }
 
+
 var restart_game = document.getElementById('reset');
 restart_game.addEventListener('click', newGame);
 function newGame() {

@@ -1,5 +1,8 @@
 @media only screen and (min-width: 400px) {
-
+  @font-face {
+    font-family: "hangman";
+    src: url(edmunds.ttf);
+  }
 body {
   background-image: url("tgtbtu.jpg");
   background-position: center;
@@ -12,23 +15,25 @@ body {
 main {
   color: black;
   text-align: center;
-  font-family: "Compacta SH Regular"; 
+  font-family: "hangman"; 
 }
 
 h1 {
-  font-size: 44px;
+  font-size: 48px;
   font-weight: bold;
   color: #F8F8FF;
   text-align:center;
-  font-family: "Compacta SH Regular""; 
+  font-family: "hangman"; 
   margin-top: 0px;
+  letter-spacing: 1.5px;
 }
 p {
   font-size: 24px;
   font-weight: bold;
   color: #F8F8FF;
   text-align: center;
-  font-family: "Compacta SH Regular"; 
+  font-family: "hangman"; 
+  letter-spacing: 1.5px;
 }
 #word_answer {
   font-size: 24px;
@@ -36,8 +41,9 @@ p {
   color: #F8F8FF;
   border-color: black;
   text-align: center;
-  font-family: "Compacta SH Regular"; 
+  font-family: "hangman"; 
   margin-top: 50px;
+  letter-spacing: 1.5px;
 }
 .url {
   image-rendering: crisp-edges;
@@ -85,8 +91,8 @@ font-weight: bold;
   text-align: center;
   padding: 10px 12px;
   width: 18px;
-  margin-top: 320px;
-  font-family: "Compacta SH Regular"; 
+  margin-top: 160px;
+  font-family: "hangman"; 
   filter: grayscale(100%);
   opacity: 0.75;
 }
@@ -98,12 +104,12 @@ font-weight: bold;
 }
 .theme {
 margin-right: 900px;
-margin-left: -580px;
+margin-left: -56px;
 margin-top: 200px;
 color: lightgray;
 opacity: 0.75;
 filter: grayscale(70%);
 background-position-x: initial;
-position: fixed;
+position: static;
 }
 }
