@@ -1,4 +1,5 @@
-var chosenWord = ["jquery", "binary", "bitmap", ]
+
+var chosenWord = ["jquery", "binary", "bitmap",]
 var wordChoice = chosenWord[Math.floor(Math.random() * chosenWord.length)];
 
 let answer = '';
@@ -9,12 +10,6 @@ let wordStatus = null;
 
 document.addEventListener('click', handleGuess);
 
-// images = document.querySelectorAll('.grid-tile-container');
-// function showHangmanImage (index) { images[index].classList.remove('hidden')
-// }
-// function randomWord() {
-//   answers = answers[Math.floor(Math.random() * answers.length)];
-// }
 function updateImage() {
   if (lives == 5) {
     document.getElementById('hangman').src = "image1.jpg"
@@ -36,13 +31,11 @@ function updateImage() {
 }
 
 function handleGuess(event) {
-  //let wordChoice = chosenWord[0]
   if (event.target.id == 'a') {
     document.getElementById('a').style.backgroundColor = '#A0522D'
 
     if (wordChoice.includes("a")) {
-      var wordPosition = wordChoice.indexOf("a") + ""; //the plus and empty "" converts any number
-      //to a string
+      var wordPosition = wordChoice.indexOf("a") + "";
       document.getElementById(wordPosition).innerHTML = "a";
     } else {
       lives = lives - 1;
@@ -63,8 +56,7 @@ function handleGuess(event) {
   else if (event.target.id == 'c') {
     document.getElementById('c').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("c")) {
-      var wordPosition = wordChoice.indexOf("c") + ""; //the plus and empty "" converts any number
-      //to a string
+      var wordPosition = wordChoice.indexOf("c") + "";
       document.getElementById(wordPosition).innerHTML = "c";
     }
     else {
@@ -75,11 +67,7 @@ function handleGuess(event) {
   else if (event.target.id == 'd') {
     document.getElementById('d').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("d")) {
-      //If word includes J, have an array that connects to the ID in our span IDs.
-      //Our string is any given word. Variable can be anything. We need to link our
-      // ID to the ID created with <span>
-      var wordPosition = wordChoice.indexOf("d") + ""; //the plus and empty "" converts any number
-      //to a string
+      var wordPosition = wordChoice.indexOf("d") + "";
       document.getElementById(wordPosition).innerHTML = "d";
     }
     else {
@@ -90,11 +78,7 @@ function handleGuess(event) {
   else if (event.target.id == 'e') {
     document.getElementById('e').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("e")) {
-      //If word includes J, have an array that connects to the ID in our span IDs.
-      //Our string is any given word. Variable can be anything. We need to link our
-      // ID to the ID created with <span>
-      var wordPosition = wordChoice.indexOf("e") + ""; //the plus and empty "" converts any number
-      //to a string
+      var wordPosition = wordChoice.indexOf("e") + "";
       document.getElementById(wordPosition).innerHTML = "e";
     }
     else {
@@ -105,11 +89,7 @@ function handleGuess(event) {
   else if (event.target.id == 'f') {
     document.getElementById('f').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("f")) {
-      //If word includes J, have an array that connects to the ID in our span IDs.
-      //Our string is any given word. Variable can be anything. We need to link our
-      // ID to the ID created with <span>
-      var wordPosition = wordChoice.indexOf("f") + ""; //the plus and empty "" converts any number
-      //to a string
+      var wordPosition = wordChoice.indexOf("f") + "";
       document.getElementById(wordPosition).innerHTML = "f";
     }
     else {
@@ -120,11 +100,8 @@ function handleGuess(event) {
   else if (event.target.id == 'g') {
     document.getElementById('g').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("g")) {
-      //If word includes J, have an array that connects to the ID in our span IDs.
-      //Our string is any given word. Variable can be anything. We need to link our
-      // ID to the ID created with <span>
-      var wordPosition = wordChoice.indexOf("g") + ""; //the plus and empty "" converts any number
-      //to a string
+
+      var wordPosition = wordChoice.indexOf("g") + "";
       document.getElementById(wordPosition).innerHTML = "g";
     }
     else {
@@ -135,11 +112,8 @@ function handleGuess(event) {
   else if (event.target.id == 'h') {
     document.getElementById('h').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("h")) {
-      //If word includes J, have an array that connects to the ID in our span IDs.
-      //Our string is any given word. Variable can be anything. We need to link our
-      // ID to the ID created with <span>
-      var wordPosition = wordChoice.indexOf("h") + ""; //the plus and empty "" converts any number
-      //to a string
+
+      var wordPosition = wordChoice.indexOf("h") + "";
       document.getElementById(wordPosition).innerHTML = "h";
     }
     else {
@@ -150,11 +124,8 @@ function handleGuess(event) {
   else if (event.target.id == 'i') {
     document.getElementById('i').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("i")) {
-      //If word includes J, have an array that connects to the ID in our span IDs.
-      //Our string is any given word. Variable can be anything. We need to link our
-      // ID to the ID created with <span>
-      var wordPosition = wordChoice.indexOf("i") + ""; //the plus and empty "" converts any number
-      //to a string
+
+      var wordPosition = wordChoice.indexOf("i") + "";
       document.getElementById(wordPosition).innerHTML = "i";
     }
     else {
@@ -180,11 +151,8 @@ function handleGuess(event) {
   else if (event.target.id == 'k') {
     document.getElementById('k').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("k")) {
-      //If word includes J, have an array that connects to the ID in our span IDs.
-      //Our string is any given word. Variable can be anything. We need to link our
-      // ID to the ID created with <span>
-      var wordPosition = wordChoice.indexOf("k") + ""; //the plus and empty "" converts any number
-      //to a string
+
+      var wordPosition = wordChoice.indexOf("k") + "";
       document.getElementById(wordPosition).innerHTML = "k";
     }
     else {
@@ -195,11 +163,8 @@ function handleGuess(event) {
   else if (event.target.id == 'l') {
     document.getElementById('l').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("l")) {
-      //If word includes J, have an array that connects to the ID in our span IDs.
-      //Our string is any given word. Variable can be anything. We need to link our
-      // ID to the ID created with <span>
-      var wordPosition = wordChoice.indexOf("l") + ""; //the plus and empty "" converts any number
-      //to a string
+
+      var wordPosition = wordChoice.indexOf("l") + "";
       document.getElementById(wordPosition).innerHTML = "l";
     }
     else {
@@ -210,11 +175,7 @@ function handleGuess(event) {
   else if (event.target.id == 'm') {
     document.getElementById('m').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("m")) {
-      //If word includes J, have an array that connects to the ID in our span IDs.
-      //Our string is any given word. Variable can be anything. We need to link our
-      // ID to the ID created with <span>
-      var wordPosition = wordChoice.indexOf("m") + ""; //the plus and empty "" converts any number
-      //to a string
+      var wordPosition = wordChoice.indexOf("m") + "";
       document.getElementById(wordPosition).innerHTML = "m";
     }
     else {
@@ -225,11 +186,7 @@ function handleGuess(event) {
   else if (event.target.id == 'n') {
     document.getElementById('n').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("n")) {
-      //If word includes J, have an array that connects to the ID in our span IDs.
-      //Our string is any given word. Variable can be anything. We need to link our
-      // ID to the ID created with <span>
-      var wordPosition = wordChoice.indexOf("n") + ""; //the plus and empty "" converts any number
-      //to a string
+      var wordPosition = wordChoice.indexOf("n") + "";
       document.getElementById(wordPosition).innerHTML = "n";
     }
     else {
@@ -240,11 +197,7 @@ function handleGuess(event) {
   else if (event.target.id == 'o') {
     document.getElementById('o').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("o")) {
-      //If word includes J, have an array that connects to the ID in our span IDs.
-      //Our string is any given word. Variable can be anything. We need to link our
-      // ID to the ID created with <span>
-      var wordPosition = wordChoice.indexOf("o") + ""; //the plus and empty "" converts any number
-      //to a string
+      var wordPosition = wordChoice.indexOf("o") + "";
       document.getElementById(wordPosition).innerHTML = "o";
     }
     else {
@@ -255,11 +208,8 @@ function handleGuess(event) {
   else if (event.target.id == 'p') {
     document.getElementById('p').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("p")) {
-      //If word includes J, have an array that connects to the ID in our span IDs.
-      //Our string is any given word. Variable can be anything. We need to link our
-      // ID to the ID created with <span>
-      var n = wordChoice.indexOf("p") + ""; //the plus and empty "" converts any number
-      //to a string
+
+      var n = wordChoice.indexOf("p") + "";
       document.getElementById(n).innerHTML = "p";
     }
     else {
@@ -270,11 +220,8 @@ function handleGuess(event) {
   else if (event.target.id == 'q') {
     document.getElementById('q').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("q")) {
-      //If word includes J, have an array that connects to the ID in our span IDs.
-      //Our string is any given word. Variable can be anything. We need to link our
-      // ID to the ID created with <span>
-      var wordPosition = wordChoice.indexOf("q") + ""; //the plus and empty "" converts any number
-      //to a string
+
+      var wordPosition = wordChoice.indexOf("q") + "";
       document.getElementById(wordPosition).innerHTML = "q";
     }
     else {
@@ -285,11 +232,8 @@ function handleGuess(event) {
   else if (event.target.id == 'r') {
     document.getElementById('r').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("r")) {
-      //If word includes J, have an array that connects to the ID in our span IDs.
-      //Our string is any given word. Variable can be anything. We need to link our
-      // ID to the ID created with <span>
-      var wordPosition = wordChoice.indexOf("r") + ""; //the plus and empty "" converts any number
-      //to a string
+
+      var wordPosition = wordChoice.indexOf("r") + "";
       document.getElementById(wordPosition).innerHTML = "r";
     }
     else {
@@ -300,11 +244,8 @@ function handleGuess(event) {
   else if (event.target.id == 's') {
     document.getElementById('s').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("s")) {
-      //If word includes J, have an array that connects to the ID in our span IDs.
-      //Our string is any given word. Variable can be anything. We need to link our
-      // ID to the ID created with <span>
-      var wordPosition = wordChoice.indexOf("s") + ""; //the plus and empty "" converts any number
-      //to a string
+
+      var wordPosition = wordChoice.indexOf("s") + "";
       document.getElementById(wordPosition).innerHTML = "s";
     }
     else {
@@ -315,11 +256,8 @@ function handleGuess(event) {
   else if (event.target.id == 't') {
     document.getElementById('t').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("t")) {
-      //If word includes J, have an array that connects to the ID in our span IDs.
-      //Our string is any given word. Variable can be anything. We need to link our
-      // ID to the ID created with <span>
-      var wordPosition = wordChoice.indexOf("t") + ""; //the plus and empty "" converts any number
-      //to a string
+
+      var wordPosition = wordChoice.indexOf("t") + "";
       document.getElementById(wordPosition).innerHTML = "t";
     }
     else {
@@ -330,11 +268,8 @@ function handleGuess(event) {
   else if (event.target.id == 'u') {
     document.getElementById('u').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("u")) {
-      //If word includes J, have an array that connects to the ID in our span IDs.
-      //Our string is any given word. Variable can be anything. We need to link our
-      // ID to the ID created with <span>
-      var wordPosition = wordChoice.indexOf("u") + ""; //the plus and empty "" converts any number
-      //to a string
+
+      var wordPosition = wordChoice.indexOf("u") + "";
       document.getElementById(wordPosition).innerHTML = "u";
     }
     else {
@@ -345,11 +280,8 @@ function handleGuess(event) {
   else if (event.target.id == 'v') {
     document.getElementById('v').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("v")) {
-      //If word includes J, have an array that connects to the ID in our span IDs.
-      //Our string is any given word. Variable can be anything. We need to link our
-      // ID to the ID created with <span>
-      var wordPosition = wordChoice.indexOf("v") + ""; //the plus and empty "" converts any number
-      //to a string
+
+      var wordPosition = wordChoice.indexOf("v") + "";
       document.getElementById(wordPosition).innerHTML = "v";
     }
     else {
@@ -360,11 +292,8 @@ function handleGuess(event) {
   else if (event.target.id == 'w') {
     document.getElementById('w').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("w")) {
-      //If word includes J, have an array that connects to the ID in our span IDs.
-      //Our string is any given word. Variable can be anything. We need to link our
-      // ID to the ID created with <span>
-      var wordPosition = wordChoice.indexOf("w") + ""; //the plus and empty "" converts any number
-      //to a string
+
+      var wordPosition = wordChoice.indexOf("w") + "";
       document.getElementById(wordPosition).innerHTML = "w";
     }
     else {
@@ -375,11 +304,8 @@ function handleGuess(event) {
   else if (event.target.id == 'x') {
     document.getElementById('x').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("x")) {
-      //If word includes J, have an array that connects to the ID in our span IDs.
-      //Our string is any given word. Variable can be anything. We need to link our
-      // ID to the ID created with <span>
-      var wordPosition = wordChoice.indexOf("x") + ""; //the plus and empty "" converts any number
-      //to a string
+
+      var wordPosition = wordChoice.indexOf("x") + "";
       document.getElementById(wordPosition).innerHTML = "x";
     }
     else {
@@ -390,11 +316,8 @@ function handleGuess(event) {
   else if (event.target.id == 'y') {
     document.getElementById('y').style.backgroundColor = '#8B4513'
     if (wordChoice.includes("y")) {
-      //If word includes J, have an array that connects to the ID in our span IDs.
-      //Our string is any given word. Variable can be anything. We need to link our
-      // ID to the ID created with <span>
-      var wordPosition = wordChoice.indexOf("y") + ""; //the plus and empty "" converts any number
-      //to a string
+
+      var wordPosition = wordChoice.indexOf("y") + "";
       document.getElementById(wordPosition).innerHTML = "y";
     }
     else {
@@ -405,11 +328,8 @@ function handleGuess(event) {
   else if (event.target.id == 'z') {
     document.getElementById('z').style.backgroundColor = '#A0522D'
     if (wordChoice.includes("z")) {
-      //If word includes J, have an array that connects to the ID in our span IDs.
-      //Our string is any given word. Variable can be anything. We need to link our
-      // ID to the ID created with <span>
-      var wordPosition = wordChoice.indexOf("z") + ""; //the plus and empty "" converts any number
-      //to a string
+
+      var wordPosition = wordChoice.indexOf("z") + "";
       document.getElementById(wordPosition).innerHTML = "z";
     }
     else {
@@ -418,7 +338,7 @@ function handleGuess(event) {
     }
   }
   checkWinningCondition();
-  checkLosingCondition() 
+  checkLosingCondition()
 }
 
 function checkWinningCondition() {
@@ -435,12 +355,6 @@ function checkLosingCondition() {
   }
 }
 
-
-//losing condition. If lives are equal to zero, then the innerHTML should display that you let Tuco die.
-//
-
-// Dashes are replaced with letters. When the innerHTML no longer contains dashes, 
-// we can alert that the player has won.
 
 
 
